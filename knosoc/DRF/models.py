@@ -9,7 +9,7 @@ class Member(models.Model):
 	email = models.EmailField(max_lenght=75)
 	#profile_picture = models.Imagefield() 
 
-	def __str__(self)
+	def __str__(self):
 		return self.user.username
 
 class Book(models.Model):
